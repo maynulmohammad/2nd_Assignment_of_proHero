@@ -22,8 +22,8 @@ nav a {
 .section_icons {
     text-align: center;
     margin-left: 13px;
-    border-top: 1px solid rgb(233, 229, 229);
-    border-bottom: 1px solid rgb(233, 229, 229);
+    /* border-top: 1px solid rgb(233, 229, 229);
+    border-bottom: 1px solid rgb(233, 229, 229); */
 
 }
 
@@ -173,4 +173,19 @@ footer h4 {
     text-align: center;
     padding-top: 120px;
     padding-left: 50px;
+}
+
+
+hr {
+    width: 77%;
+    margin-left: 12%;
+    border: 1px solid rgb(252, 247, 247);
+}
+
+
+@media screen and (max-width: 576px) {
+    body {
+        flex-direction: column;
+
+    }
 }
